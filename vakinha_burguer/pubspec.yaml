@@ -63,7 +63,7 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - assets/images
+    - assets/images/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
@@ -80,13 +80,13 @@ flutter:
   fonts:
     - family: mplus1
       fonts:
-        - asset: assets/fonts/mplus1/MPLUS1p-Regular.tff
+        - asset: assets/fonts/mplus1/MPLUS1p-Regular.ttf
           style: normal
-        - asset: assets/fonts/mplus1/MPLUS1p-Medium.tff
+        - asset: assets/fonts/mplus1/MPLUS1p-Medium.ttf
           weight: 500
-        - asset: assets/fonts/mplus1/MPLUS1p-Bold.tff
+        - asset: assets/fonts/mplus1/MPLUS1p-Bold.ttf
           weight: 700
-        - asset: assets/fonts/mplus1/MPLUS1p-ExtraBold.tff
+        - asset: assets/fonts/mplus1/MPLUS1p-ExtraBold.ttf
           weight: 800
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
