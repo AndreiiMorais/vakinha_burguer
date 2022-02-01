@@ -1,0 +1,10 @@
+import 'package:vakinha_burguer/app/models/user_model.dart';
+
+abstract class AuthRepository {
+  Future<UserModel> Login(String email, String password);
+  Future<UserModel> register(
+    String name,
+    String email,
+    String password,
+  );
+}

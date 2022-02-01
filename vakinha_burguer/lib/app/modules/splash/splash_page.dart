@@ -40,7 +40,9 @@ class SplashPage extends StatelessWidget {
                     width: context.widthTransformer(reducedBy: 40),
                     height: 35,
                     label: 'ACESSAR',
-                    onPressed: () {},
+                    onPressed: () {
+                      Get.toNamed('/auth/login');
+                    },
                   )
                 ],
               ),
